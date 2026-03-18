@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Галерея — Маршрути Дніпра</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до контенту</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="На головну">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 22s7-5.2 7-12a7 7 0 1 0-14 0c0 6.8 7 12 7 12Z" stroke="white" stroke-width="1.8"/>
+            <path d="M12 13.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Z" stroke="white" stroke-width="1.8"/>
+          </svg>
+        </span>
+        <span class="brand__name">
+          Маршрути Дніпра
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Головне меню">
+        <input class="nav_toggle" type="checkbox" id="nav-toggle" />
+        <label class="nav_burger" for="nav-toggle" aria-label="Відкрити меню">
+          <span></span><span></span><span></span>
+        </label>
+
+        <div class="nav_links">
+          <a class="nav_link" href="index.html">Головна</a>
+          <a class="nav_link" href="articles.html">Маршрути</a>
+          <a class="nav_link is-active" href="gallery.html">Галерея</a>
+          <a class="nav_link" href="about.html">Про сайт</a>
+          <a class="nav_link" href="contact.html">Контакти</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <span class="badge">🖼️ Фото-натхнення</span>
+      <h1 class="page-title">Галерея локацій</h1>
+      <p class="lead">
+        Добірка кадрів, які задають настрій: вода, вулиці, зелень, кава та вечірні вогні. Використай як натхнення для свого маршруту.
+      </p>
+
+      <hr class="sep" />
+
+      <section class="gallery-grid" aria-label="Галерея">
+        <figure class="g-item span-8 h-340">
+          <img src="Photos/Dnipro4.jpeg"
+               alt="Пейзаж з горизонтом і небом" />
+          <figcaption class="cap">Натхнення для маршруту “парк + тиша”</figcaption>
+        </figure>
+
+        <figure class="g-item span-4 h-340">
+          <img src="Photos/Dnipro3.jpg"
+               alt="Вулична архітектура та світло" />
+          <figcaption class="cap">Текстури міста і світлотінь</figcaption>
+        </figure>
+
+        <figure class="g-item span-6 h-260">
+          <img src="Photos/Dnipro6.jpg"
+               alt="Доріжка в парку" />
+          <figcaption class="cap">Зелений коридор для прогулянки</figcaption>
+        </figure>
+
+        <figure class="g-item span-6 h-260">
+          <img src="Photos/Dnipro5.jpg"
+               alt="Місто біля води" />
+          <figcaption class="cap">Вода + місто = ідеальна пара</figcaption>
+        </figure>
+
+        <figure class="g-item span-4 h-260">
+          <img src="Photos/Dnipro8.jpg"
+               alt="Кава у місті" />
+          <figcaption class="cap">Пауза на каву — частина маршруту</figcaption>
+        </figure>
+
+        <figure class="g-item span-8 h-260">
+          <img src="Photos/Dnipro7.jpg"
+               alt="Вечірні вогні" />
+          <figcaption class="cap">Вечірні вогні для фіналу прогулянки</figcaption>
+        </figure>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Маршрути Дніпра</strong><br />
+        <span>Галерея: настрій локацій для прогулянки</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

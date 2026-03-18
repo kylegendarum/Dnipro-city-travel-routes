@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Маршрути — Маршрути Дніпра</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до контенту</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="На головну">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 22s7-5.2 7-12a7 7 0 1 0-14 0c0 6.8 7 12 7 12Z" stroke="white" stroke-width="1.8"/>
+            <path d="M12 13.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Z" stroke="white" stroke-width="1.8"/>
+          </svg>
+        </span>
+        <span class="brand__name">
+          Маршрути Дніпра
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Головне меню">
+        <input class="nav_toggle" type="checkbox" id="nav-toggle" />
+        <label class="nav_burger" for="nav-toggle" aria-label="Відкрити меню">
+          <span></span><span></span><span></span>
+        </label>
+
+        <div class="nav_links">
+          <a class="nav_link" href="index.html">Головна</a>
+          <a class="nav_link is-active" href="articles.html">Маршрути</a>
+          <a class="nav_link" href="gallery.html">Галерея</a>
+          <a class="nav_link" href="about.html">Про сайт</a>
+          <a class="nav_link" href="contact.html">Контакти</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <span class="badge">📚 Основний розділ</span>
+      <h1 class="page-title">Маршрути та поради</h1>
+      <p class="lead">
+        Три маршрути різного настрою. Обирай за часом і погодою — і бери готовий план на 2–3 години.
+      </p>
+
+      <hr class="sep" />
+
+      <div class="article">
+        <article class="card content">
+          <h2 id="route-river">1) Набережна + кава + захід сонця</h2>
+          <p>
+            Ідея проста: прогулянка без поспіху, кілька красивих точок для фото та коротка пауза на каву.
+            Маршрут підходить, коли є 2–3 години і хочеться “перемкнутися”.
+          </p>
+          <ul>
+            <li><b>Старт:</b> зручний вихід до набережної.</li>
+            <li><b>Точка 1:</b> фото біля води (золотий час — за ~40 хв до заходу).</li>
+            <li><b>Точка 2:</b> кава/чай, 10–15 хв відпочинку.</li>
+            <li><b>Фініш:</b> коротка прогулянка назад іншою вулицею.</li>
+          </ul>
+          <p><span class="badge">Порада</span> Візьми павербанк і серветки — дрібниця, але рятує.</p>
+
+          <hr class="sep" />
+
+          <h2 id="route-center">2) Центр міста: архітектура і короткі історії</h2>
+          <p>
+            Для тих, хто любить місто “очима деталей”: фасади, арки, дворики, вітрини.
+            Можна робити серію фото “до/після” (сонце/тінь) і вчитись бачити композицію.
+          </p>
+          <ul>
+            <li><b>Фокус:</b> 5–7 точок, але без бігу.</li>
+            <li><b>Завдання:</b> знайди 3 декоративні елементи (ліпнина/вітраж/барельєф) і сфотографуй.</li>
+            <li><b>Міні-історія:</b> придумай 2–3 речення про “головного героя” маршруту (будинок/вулиця).</li>
+          </ul>
+
+          <hr class="sep" />
+
+          <h2 id="route-park">3) Парк + тиша + “перезавантаження”</h2>
+          <p>
+            Маршрут для відновлення: зелені місця, повільний темп, спостереження за дрібницями.
+            Можна додати нотатки: що почув(ла), що побачив(ла), що запам’ятав(ла).
+          </p>
+          <ul>
+            <li><b>План:</b> 20 хв ходьби → 10 хв відпочинку → ще 20 хв.</li>
+            <li><b>Фото-ідея:</b> “три текстури” (кора дерева, листя, вода/камінь).</li>
+            <li><b>Еко-звичка:</b> забери з собою маленьке сміття, якщо є можливість.</li>
+          </ul>
+        </article>
+
+        <aside class="card aside" aria-label="Бокова панель">
+          <h3>Швидка навігація</h3>
+          <ul>
+            <li><a href="#route-river">Набережна</a></li>
+            <li><a href="#route-center">Центр</a></li>
+            <li><a href="#route-park">Парк</a></li>
+          </ul>
+
+          <hr class="sep" />
+
+          <h3>Міні-чеклист</h3>
+          <ul>
+            <li>вода + перекус</li>
+            <li>павербанк</li>
+            <li>навушники (за бажанням)</li>
+            <li>зручне взуття</li>
+          </ul>
+
+          <hr class="sep" />
+
+          <a class="btn" href="contact.html">Запропонувати маршрут →</a>
+          <p class="help">Є свій улюблений маршрут? Напиши — додамо в добірку.</p>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Маршрути Дніпра</strong><br />
+        <span>Розділ “Маршрути”: ідеї для прогулянок на 2–3 години</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

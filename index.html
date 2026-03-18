@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Маршрути Дніпра — тематичний сайт</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти до контенту</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="На головну">
+          <span class="brand__mark" aria-hidden="true">
+            <!-- simple pin icon -->
+            <svg viewBox="0 0 24 24" fill="none">
+              <path
+                d="M12 22s7-5.2 7-12a7 7 0 1 0-14 0c0 6.8 7 12 7 12Z"
+                stroke="white"
+                stroke-width="1.8"
+              />
+              <path
+                d="M12 13.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Z"
+                stroke="white"
+                stroke-width="1.8"
+              />
+            </svg>
+          </span>
+          <span class="brand__name">
+            Маршрути Дніпра
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Головне меню">
+          <input class="nav_toggle" type="checkbox" id="nav-toggle" />
+          <label class="nav_burger" for="nav-toggle" aria-label="Відкрити меню">
+            <span></span><span></span><span></span>
+          </label>
+
+          <div class="nav_links">
+            <a class="nav_link is-active" href="index.html">Головна</a>
+            <a class="nav_link" href="articles.html">Маршрути</a>
+            <a class="nav_link" href="gallery.html">Галерея</a>
+            <a class="nav_link" href="about.html">Про сайт</a>
+            <a class="nav_link" href="contact.html">Контакти</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-card">
+            <h1>План на день у Дніпрі</h1>
+            <p>
+              Короткі міські мандрівки без зайвої метушні: обери настрій (вода, архітектура або зелень)
+              і отримай готовий план прогулянки з точками для фото та паузами на відпочинок.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn" href="articles.html">
+                Переглянути маршрути
+                <span aria-hidden="true">→</span>
+              </a>
+              <a class="btn btn--ghost" href="gallery.html">Галерея фото</a>
+            </div>
+
+            <div class="stats" aria-label="Коротка статистика">
+              <div class="stat">
+                <strong>3</strong>
+                <span>готові маршрути</span>
+              </div>
+              <div class="stat">
+                <strong>12</strong>
+                <span>точок на мапі</span>
+              </div>
+              <div class="stat">
+                <strong>1</strong>
+                <span>день без поспіху</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="thumb"
+              src="Photos/Dnipro1.avif"
+              alt="Мапа та компас — символ маршруту"
+            />
+            <div class="card__body">
+              <h3 class="card__title">Перед виходом</h3>
+              <p class="card__text">
+                Перевір погоду → вдягни зручне взуття → візьми воду та заряд →
+                і вирушай. У маршрутах є короткі підказки, де зробити паузу і що не пропустити.
+              </p>
+              <div class="meta">
+                <span>Швидкий чеклист</span>
+                <span class="badge">🧾 take & go</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">Популярні маршрути</h2>
+
+          <div class="grid-3">
+            <article class="card">
+              <img
+                class="thumb"
+                src="Photos/Dnipro2.jpg"
+                alt="Набережна і вода"
+              />
+              <div class="card__body">
+                <span class="badge">🌊 вода</span>
+                <h3 class="card__title">Набережна + кава + захід сонця</h3>
+                <p class="card__text">
+                  Ідеально на 2–3 години: прогулянка вздовж води, коротка
+                  зупинка на каву та фото на золотій годині.
+                </p>
+                <div class="meta">
+                  <span>Рівень: easy</span>
+                  <a class="btn btn--ghost" href="articles.html#route-river"
+                    >Деталі</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <img
+                class="thumb"
+                src="Photos/Dnipro3.jpg"
+                alt="Вулиця міста з архітектурою"
+              />
+              <div class="card__body">
+                <span class="badge">🏛 культура</span>
+                <h3 class="card__title">
+                  Центр міста: архітектура і короткі історії
+                </h3>
+                <p class="card__text">
+                  Маршрут для тих, хто любить деталі: фасади, дворики, цікаві
+                  точки та “міські легенди”.
+                </p>
+                <div class="meta">
+                  <span>Рівень: medium</span>
+                  <a class="btn btn--ghost" href="articles.html#route-center"
+                    >Деталі</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <img
+                class="thumb"
+                src="Photos/Dnipro4.jpeg"
+                alt="Парк та зелень"
+              />
+              <div class="card__body">
+                <span class="badge">🌿 природа</span>
+                <h3 class="card__title">Парк + тиша + “перезавантаження”</h3>
+                <p class="card__text">
+                  Зелені локації для відпочинку: прогулянка, лавка, нотатки,
+                  фото деталей природи.
+                </p>
+                <div class="meta">
+                  <span>Рівень: easy</span>
+                  <a class="btn btn--ghost" href="articles.html#route-park"
+                    >Деталі</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <hr class="sep" />
+
+          <div class="grid-2">
+            <div class="card">
+              <div class="card__body">
+                <h3 class="card__title">Коли йти, щоб було красиво</h3>
+                <p class="card__text">
+                  Ранок — для спокійних кадрів і порожніх вулиць. Вечір — для заходу сонця та ліхтарів.
+                  Після дощу місто стає “дзеркальним” — ідеально для фото.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__body">
+                <h3 class="card__title">Як обрати маршрут</h3>
+                <p class="card__text">
+                  Якщо хочеться руху — обирай набережну. Якщо тягне на атмосферу — центр і дворики.
+                  Якщо треба “видихнути” — парк і тиша. Усі варіанти розраховані на 2–3 години.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>Маршрути Дніпра</strong><br />
+          <span>Мікро-подорожі містом: маршрути, фото-ідеї, паузи на каву</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
