@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Про сайт — Маршрути Дніпра</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до контенту</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="На головну">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 22s7-5.2 7-12a7 7 0 1 0-14 0c0 6.8 7 12 7 12Z" stroke="white" stroke-width="1.8"/>
+            <path d="M12 13.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Z" stroke="white" stroke-width="1.8"/>
+          </svg>
+        </span>
+        <span class="brand__name">
+          Маршрути Дніпра
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Головне меню">
+        <input class="nav_toggle" type="checkbox" id="nav-toggle" />
+        <label class="nav_burger" for="nav-toggle" aria-label="Відкрити меню">
+          <span></span><span></span><span></span>
+        </label>
+
+        <div class="nav_links">
+          <a class="nav_link" href="index.html">Головна</a>
+          <a class="nav_link" href="articles.html">Маршрути</a>
+          <a class="nav_link" href="gallery.html">Галерея</a>
+          <a class="nav_link is-active" href="about.html">Про сайт</a>
+          <a class="nav_link" href="contact.html">Контакти</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <span class="badge">ℹ️ Інформація</span>
+      <h1 class="page-title">Про сайт</h1>
+      <p class="lead">
+        Невеликий путівник для коротких прогулянок Дніпром: ідеї маршрутів, атмосферні локації та прості поради, щоб місто “зайшло” з першого разу.
+      </p>
+
+      <hr class="sep" />
+
+      <div class="grid-2">
+        <section class="card content">
+          <h2>Для чого цей сайт</h2>
+          <p>
+            Допомогти швидко скласти план на 2–3 години: куди вийти, де зробити паузу, де зловити гарне світло та які дрібниці взяти з собою.
+          </p>
+
+          <h2>Як складаються маршрути</h2>
+          <ul>
+  <li><b>Коротко й реально:</b> маршрут проходиться пішки або з однією поїздкою транспортом.</li>
+  <li><b>Пауза всередині:</b> лавка/кава/краєвид — щоб не бігти “на результат”.</li>
+  <li><b>Точки для фото:</b> 2–3 місця з різною атмосферою (вода, місто, зелень).</li>
+  <li><b>Комфорт і безпека:</b> підказки про час доби, погоду та зручне взуття.</li>
+</ul>
+        </section>
+
+        <aside class="card">
+          <img class="thumb"
+               src="Photos/Me.png"
+               alt="Людина з картою в руках" />
+          <div class="card__body">
+            <h3 class="card__title">Про автора</h3>
+            <p class="card__text">
+              Мені подобаються короткі міські подорожі, коли за кілька годин можна побачити місто по-новому.
+              Люблю збирати “маленькі подорожі” на вихідні: так, щоб умістити в один день і воду, і місто, і зелену паузу.
+            </p>
+            <div class="meta">
+              <span>Наступне: нові добірки</span>
+              <span class="badge">🗺️ міський гід</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Маршрути Дніпра</strong><br />
+        <span>Хто ми і як обираємо локації</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

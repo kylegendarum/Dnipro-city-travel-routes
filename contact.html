@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Контакти — Маршрути Дніпра</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до контенту</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="На головну">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 22s7-5.2 7-12a7 7 0 1 0-14 0c0 6.8 7 12 7 12Z" stroke="white" stroke-width="1.8"/>
+            <path d="M12 13.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Z" stroke="white" stroke-width="1.8"/>
+          </svg>
+        </span>
+        <span class="brand__name">
+          Маршрути Дніпра
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Головне меню">
+        <input class="nav_toggle" type="checkbox" id="nav-toggle" />
+        <label class="nav_burger" for="nav-toggle" aria-label="Відкрити меню">
+          <span></span><span></span><span></span>
+        </label>
+
+        <div class="nav_links">
+          <a class="nav_link" href="index.html">Головна</a>
+          <a class="nav_link" href="articles.html">Маршрути</a>
+          <a class="nav_link" href="gallery.html">Галерея</a>
+          <a class="nav_link" href="about.html">Про сайт</a>
+          <a class="nav_link is-active" href="contact.html">Контакти</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <span class="badge">✉️ Зворотний зв’язок</span>
+      <h1 class="page-title">Контакти</h1>
+      <p class="lead">
+        Хочеш підказати локацію, кав’ярню з видом або новий маршрут? Напиши кілька речень — що саме, де і чому це варто побачити.
+      </p>
+
+      <hr class="sep" />
+
+      <div class="grid-2">
+        <section class="card form" aria-label="Форма зворотного зв’язку">
+          <form action="#" method="post">
+            <div class="field">
+              <label for="name">Ім’я</label>
+              <input id="name" name="name" type="text" placeholder="Наприклад: Кирило" required />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="name@example.com" required />
+            </div>
+
+            <div class="field">
+              <label for="topic">Тема</label>
+              <input id="topic" name="topic" type="text" placeholder="Наприклад: Хочу запропонувати маршрут" />
+            </div>
+
+            <div class="field">
+              <label for="message">Повідомлення</label>
+              <textarea id="message" name="message" rows="6" placeholder="Опишіть ідею коротко: що, де, скільки часу, що цікавого." required></textarea>
+            </div>
+
+            <button class="btn" type="submit">Надіслати →</button>
+            <p class="help">
+              Підказка: вкажи орієнтовний час маршруту, сезон/пору дня та 1–2 “фішки” (краєвид, дворик, місце для фото).
+            </p>
+          </form>
+        </section>
+
+        <aside class="card">
+          <img class="thumb"
+               src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
+               alt="Люди обговорюють ідеї" />
+          <div class="card__body">
+            <h3 class="card__title">Інші способи зв’язку</h3>
+            <p class="card__text">
+              • Telegram: @dnipro_routes | @kylegendarum<br/>
+              • Instagram: @dnipro.routes | @kylegendarum<br/>
+              • Email: hello@dnipro-routes.ua | sokolovkyrylo@gmail.com
+            </p>
+            <div class="meta">
+              <span>Відповідаємо протягом дня</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Маршрути Дніпра</strong><br />
+        <span>Контакти: запропонувати локацію або маршрут</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
